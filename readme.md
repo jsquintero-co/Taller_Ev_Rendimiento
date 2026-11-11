@@ -38,7 +38,7 @@ El experimento sigue un diseño factorial completo con **224 configuraciones dis
 ##  Estructura del Repositorio
 
 ```
-
+.
 ├── src/                   # Código fuente C y encabezados de la aplicación
 │   ├── moduloMM.c         # Funciones de asignación de memoria y multiplicación
 │   ├── moduloMM.h         # Prototipos de funciones y definición de estructuras
@@ -46,7 +46,6 @@ El experimento sigue un diseño factorial completo con **224 configuraciones dis
 │   ├── mxmPosixFxT.c      # Implementación POSIX Fila x Transpuesta
 │   ├── mxmForkFxC.c       # Implementación Fork Fila x Columna
 │   └── mxmForkFxT.c       # Implementación Fork Fila x Transpuesta
-├── Soluciones/            # Archivos de datos brutos (.dat) con las mediciones
 ├── lanzador.pl            # Script de automatización de pruebas
 └── Makefile               # Script de compilación optimizado
 ```
