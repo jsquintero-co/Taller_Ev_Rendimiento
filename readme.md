@@ -18,7 +18,7 @@ El rendimiento de un software no solo depende de las operaciones matemáticas, s
 
 * **Procesos (`fork`):** Crean duplicados independientes del espacio de memoria mediante el mecanismo *Copy-on-Write*. En cálculos muy breves, el costo del kernel para gestionar el nuevo proceso supera la ganancia del procesamiento paralelo.
 
-## 📐 Diseño Experimental
+## Diseño Experimental
 
 El experimento sigue un diseño factorial completo con **224 configuraciones distintas por plataforma** y **30 repeticiones** por caso para garantizar significancia estadística.
 
@@ -38,8 +38,7 @@ El experimento sigue un diseño factorial completo con **224 configuraciones dis
 ##  Estructura del Repositorio
 
 ```
-.
-├── bin/                   # Binarios ejecutables (mxmPosixFxC, mxmPosixFxT, etc.)
+
 ├── src/                   # Código fuente C y encabezados de la aplicación
 │   ├── moduloMM.c         # Funciones de asignación de memoria y multiplicación
 │   ├── moduloMM.h         # Prototipos de funciones y definición de estructuras
